@@ -64,7 +64,6 @@ public class ValidadorResgistroTest
         boolean resultado = validador.validarEdad(16);
         // Esperamos TRUE porque 16 es la edad mínima legal establecida
         assertTrue(resultado, "Error: El sistema rechazó a un usuario con la edad mínima (16)");
-
     }
 }
 
