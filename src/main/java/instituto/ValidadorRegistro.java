@@ -5,4 +5,5 @@ public class ValidadorRegistro {
     public boolean validarPassword(String pass) { return pass.length() >= 8; }
     public boolean validarEmail(String email) { return email.contains("@"); }
     public boolean validarEdad(int edad) { return edad >= 16; }
+
 }
